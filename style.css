@@ -89,7 +89,7 @@ img {
   position: absolute;
   inset: 0;
   background: url("assets/images/topo.jpg") center/cover no-repeat;
-  opacity: 0.35;
+  opacity: 0.30;
   pointer-events: none;
 }
 
@@ -176,7 +176,7 @@ img {
 
 .section-label {
   margin-bottom: 20px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: #777777;
@@ -201,4 +201,9 @@ img {
   border-top: 1px solid #dddddd;
   color: #666666;
   font-size: 0.95rem;
+}
+
+.co {
+  opacity: 0.6;
+  letter-spacing: 0.08em;
 }
