@@ -207,3 +207,45 @@ img {
   opacity: 0.6;
   letter-spacing: 0.08em;
 }
+
+.framework {
+  background: #f6f4ef;
+  padding-bottom: 160px;
+}
+
+.framework-grid {
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.framework-item {
+  flex: 1;
+}
+
+.framework-item h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 16px;
+}
+
+.framework-item p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555555;
+}
+
+.framework-number {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 900px) {
+  .framework-grid {
+    flex-direction: column;
+  }
+}
