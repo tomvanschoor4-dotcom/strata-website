@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #f6f4ef;
   color: #111111;
@@ -139,6 +143,32 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.about-section {
+  padding: 140px 0 180px;
+  background: #111111;
+  color: #f6f4ef;
+}
+
+.about-section h2 {
+  max-width: 850px;
+  margin-bottom: 32px;
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.about-section p {
+  margin-bottom: 28px;
+  max-width: 680px;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #d6d6d6;
 }
 
 .button {
