@@ -150,25 +150,41 @@ section {
 }
 
 .about-section {
-  padding: 140px 0 180px;
-  background: #111111;
+  padding: 180px 0;
+  background: #444141;
   color: #f6f4ef;
 }
 
-.about-section h2 {
-  max-width: 850px;
-  margin-bottom: 32px;
-  font-size: clamp(2.8rem, 6vw, 5rem);
-  line-height: 1;
-  letter-spacing: -0.04em;
+.about-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
 }
 
-.about-section p {
-  margin-bottom: 28px;
-  max-width: 680px;
+.about-left {
+  flex: 1;
+}
+
+.about-right {
+  flex: 1;
+  max-width: 520px;
+}
+
+.about-section h2 {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.about-right p {
+  margin-bottom: 32px;
   font-size: 1.15rem;
-  line-height: 1.8;
-  color: #d6d6d6;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.72);
+}
+
+.about-emphasis {
+  color: #ffffff;
 }
 
 .button {
