@@ -71,7 +71,7 @@ img {
 }
 
 .nav-button {
-  padding: 12px 20px;
+  padding: 10px 18px;
   background: #111111;
   color: white;
   border-radius: 999px;
@@ -313,4 +313,55 @@ section {
   .framework-grid {
     flex-direction: column;
   }
+}
+
+@media (max-width: 768px) {
+
+  .about-layout {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-section h2 {
+    font-size: 4rem;
+    line-height: 0.95;
+  }
+
+    .framework-grid {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .nav {
+    width: 92%;
+  }
+
+  .nav-left {
+    gap: 16px;
+  }
+
+  .nav-left a {
+    font-size: 0.7rem;
+  }
+
+ .nav-button {
+    font-size: 0.7rem;
+    padding: 10px 14px;
+  }
+
 }
